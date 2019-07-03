@@ -1,0 +1,28 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ehcache-test:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/ehcache_test_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="ehcache-test/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ehcache-test" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: commons-logging:commons-logging:1.2" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-aop:4.3.20.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-beans:4.3.20.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-context:4.3.20.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-core:4.3.20.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-expression:4.3.20.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-web:4.3.20.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-webmvc:4.3.20.RELEASE" />
+          <element id="library" level="project" name="Gradle: net.sf.ehcache:ehcache-core:2.4.6" />
+          <element id="library" level="project" name="Gradle: org.slf4j:slf4j-api:1.6.1" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-context-support:4.3.20.RELEASE" />
+          <element id="library" level="project" name="Gradle: net.sf.ehcache:ehcache:2.10.2" />
+          <element id="library" level="project" name="Gradle: org.slf4j:slf4j-api:1.7.7" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
